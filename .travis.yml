@@ -12,6 +12,7 @@ addons:
       - python-lxml # because pip installation is slow
       - pdftk
       - wkhtmltopdf  # only add if needed and check the before_install section below
+      - libreoffice
   postgresql: "9.6"
 
 language: python
