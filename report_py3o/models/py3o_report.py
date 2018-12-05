@@ -73,6 +73,14 @@ def format_multiline_value(value):
                       replace('\t', '<text:s/><text:s/><text:s/><text:s/>'))
     return ""
 
+def format_html(value):
+    if value:
+        return Markup(value.replace('<p>', '<text:span text:style-name="Standard">').
+                      replace('</p>', '</text:span>').
+                      replace('<b>', '<text:span text:style-name="T30">').
+                      replace('</b>', '</text:span>').
+                      replace('<br>', '<text:line-break/>'))
+    return ""
 
 @py3o_report_extender()
 def default_extend(report_xml, localcontext):
@@ -82,6 +90,7 @@ def default_extend(report_xml, localcontext):
     localcontext['report_xml'] = report_xml
     localcontext['format_multiline_value'] = format_multiline_value
     localcontext['html_sanitize'] = tools.html2plaintext
+    localcontext['format_html'] = format_html
 
 
 class Py3oReport(models.TransientModel):
