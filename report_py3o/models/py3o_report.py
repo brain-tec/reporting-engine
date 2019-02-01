@@ -194,9 +194,11 @@ class Py3oReport(models.TransientModel):
     def _get_parser_context(self, model_instance, data):
         report_xml = self.ir_actions_report_id
         context = Py3oParserContext(self.env).localcontext
-        context.update(
-            report_xml._get_rendering_context(model_instance.ids, data)
-        )
+
+        #backport from v12. this function does not exist in v11
+        #context.update(
+        #    report_xml._get_rendering_context(model_instance.ids, data)
+        #)
         context['objects'] = model_instance
         self._extend_parser_context(context, report_xml)
         return context
