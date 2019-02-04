@@ -1,18 +1,18 @@
 /* Copyright 2017 ACSONE SA/NV
  * License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). */
-odoo.define('report_py3o.report', function (require) {
+odoo.define('report_py3o.report', function(require) {
     'use strict';
     var ActionManager = require('web.ActionManager');
     var crash_manager = require('web.crash_manager');
     var framework = require('web.framework');
 
-    var trigger_download = function (session, response, c, action, options) {
+    var trigger_download = function(session, response, c, action, options) {
         session.get_file({
             url: '/report/download',
             data: {data: JSON.stringify(response)},
             complete: framework.unblockUI,
             error: c.rpc_error.bind(c),
-            success: function () {
+            success: function() {
                 if (action && options && !action.dialog) {
                     options.on_close();
                 }
@@ -21,7 +21,7 @@ odoo.define('report_py3o.report', function (require) {
     };
 
     ActionManager.include({
-        ir_actions_report: function (action, options) {
+        ir_actions_report: function(action, options) {
             var self = this;
 
             // Py3o reports
@@ -33,12 +33,12 @@ odoo.define('report_py3o.report', function (require) {
                 // particular: query string of action.data.form and context
                 if (!('data' in action) || !(action.data)) {
                     if ('active_ids' in action.context) {
-                        report_url += "/" + action.context.active_ids.join(',');
+                        report_url += '/' + action.context.active_ids.join(',');
                     }
                 } else {
-                    report_url += "&options=" + encodeURIComponent(
+                    report_url += '&options=' + encodeURIComponent(
                         JSON.stringify(action.data));
-                    report_url += "&context=" + encodeURIComponent(
+                    report_url += '&context=' + encodeURIComponent(
                         JSON.stringify(action.context));
                 }
 
