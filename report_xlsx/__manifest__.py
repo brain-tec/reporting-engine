@@ -10,11 +10,17 @@
               'Odoo Community Association (OCA)',
     'website': "http://acsone.eu",
     'category': 'Reporting',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.1.0',
     'license': 'AGPL-3',
     'external_dependencies': {'python': ['xlsxwriter']},
     'depends': [
         'base',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+
+        'views/header_footer.xml',
+        'views/ir_report.xml',
     ],
     'installable': True,
 }
