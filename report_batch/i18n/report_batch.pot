@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* report_batch
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: report_batch
+#: model:ir.actions.act_window,help:report_batch.action_ir_actions_subreport
+msgid "Allows to add multi QWeb reports in a single batch"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.ui.view,arch_db:report_batch.act_batch_report_xml_view
+msgid "Batch Report"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.actions.act_window,name:report_batch.action_ir_actions_subreport
+#: model:ir.ui.menu,name:report_batch.menu_action_ir_actions_subreport
+#: model:ir.ui.view,arch_db:report_batch.act_batch_report_xml_view
+#: model:ir.ui.view,arch_db:report_batch.view_ir_actions_subreport_tree
+msgid "Batch Reports"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_id
+msgid "ID"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_act_report_xml_model_id
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_model
+msgid "Model"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_parent_report_id
+msgid "Parent Report"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model,name:report_batch.model_ir_actions_report_subreport
+msgid "Report Subreport"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model.fields,field_description:report_batch.field_ir_act_report_xml_subreport_ids
+#: model:ir.model.fields,field_description:report_batch.field_ir_actions_report_subreport_subreport_id
+msgid "Subreport"
+msgstr ""
+
+#. module: report_batch
+#: model:ir.model,name:report_batch.model_ir_actions_report
+msgid "ir.actions.report"
+msgstr ""
+
