@@ -64,6 +64,16 @@ You need to define a function like::
 You can use `code` in a similar way, as `pandas` and `altair` are already defined
 when using `code` on an `altair` widget.
 
+
+.. image:: https://raw.githubusercontent.com/OCA/reporting-engine/12.0/kpi_dashboard_altair/static/description/config.png
+
+
+Usage
+=====
+
+
+.. figure:: https://raw.githubusercontent.com/OCA/reporting-engine/12.0/kpi_dashboard_altair/static/description/graph.png
+
 Bug Tracker
 ===========
 
