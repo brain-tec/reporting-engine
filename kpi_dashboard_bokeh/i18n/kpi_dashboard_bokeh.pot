@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* kpi_dashboard_altair
+#	* kpi_dashboard_bokeh
 #
 msgid ""
 msgstr ""
@@ -13,38 +13,38 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: kpi_dashboard_altair
+#. module: kpi_dashboard_bokeh
 #: selection:kpi.kpi,widget:0
 msgid "Altair"
 msgstr ""
 
-#. module: kpi_dashboard_altair
+#. module: kpi_dashboard_bokeh
 #: selection:kpi.kpi,widget:0
 msgid "Bokeh"
 msgstr ""
 
-#. module: kpi_dashboard_altair
+#. module: kpi_dashboard_bokeh
 #: selection:kpi.kpi,widget:0
 msgid "Graph"
 msgstr ""
 
-#. module: kpi_dashboard_altair
-#: model:ir.model,name:kpi_dashboard_altair.model_kpi_kpi
+#. module: kpi_dashboard_bokeh
+#: model:ir.model,name:kpi_dashboard_bokeh.model_kpi_kpi
 msgid "Kpi Kpi"
 msgstr ""
 
-#. module: kpi_dashboard_altair
+#. module: kpi_dashboard_bokeh
 #: selection:kpi.kpi,widget:0
 msgid "Meter"
 msgstr ""
 
-#. module: kpi_dashboard_altair
+#. module: kpi_dashboard_bokeh
 #: selection:kpi.kpi,widget:0
 msgid "Number"
 msgstr ""
 
-#. module: kpi_dashboard_altair
-#: model:ir.model.fields,field_description:kpi_dashboard_altair.field_kpi_kpi__widget
+#. module: kpi_dashboard_bokeh
+#: model:ir.model.fields,field_description:kpi_dashboard_bokeh.field_kpi_kpi__widget
 msgid "Widget"
 msgstr ""
 
