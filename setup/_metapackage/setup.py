@@ -12,11 +12,13 @@ setuptools.setup(
         'odoo14-addon-bi_view_editor',
         'odoo14-addon-kpi_dashboard',
         'odoo14-addon-report_qweb_encrypt',
+        'odoo14-addon-report_qweb_parameter',
         'odoo14-addon-report_qweb_pdf_watermark',
         'odoo14-addon-report_wkhtmltopdf_param',
         'odoo14-addon-report_xlsx',
         'odoo14-addon-report_xlsx_helper',
         'odoo14-addon-report_xlsx_helper_demo',
+        'odoo14-addon-report_xml',
     ],
     classifiers=[
         'Programming Language :: Python',
