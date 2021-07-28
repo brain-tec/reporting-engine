@@ -4,9 +4,9 @@
 {
     "name": "Report layout configuration",
     "summary": "Add possibility to easily modify the global report layout",
-    "version": "13.0.1.0.0",
+    "version": "13.0.1.0.1",
     "category": "Reporting",
-    "website": "http://github.com/OCA/reporting-engine",
+    "website": "https://github.com/OCA/reporting-engine",
     "author": "Camptocamp, " "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "depends": ["web", "base"],
