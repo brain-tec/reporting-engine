@@ -5,3 +5,4 @@
 * Saran Limpajitkutaporn <saranl@ecosoft.co.th>
 * Pimolnat Suntian <pimolnats@ecosoft.co.th>
 * Tharathip Chaweewongphan <tharathipc@ecosoft.co.th>
+* Daniel Herreros <daniel.herreros@bt-group.com>
