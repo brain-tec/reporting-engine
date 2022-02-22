@@ -1,5 +1,6 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/143/14.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-reporting-engine-143)
-[![Build Status](https://travis-ci.com/OCA/reporting-engine.svg?branch=14.0)](https://travis-ci.com/OCA/reporting-engine)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/reporting-engine&target_branch=14.0)
+[![Pre-commit Status](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/reporting-engine/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/reporting-engine/actions/workflows/test.yml?query=branch%3A14.0)
 [![codecov](https://codecov.io/gh/OCA/reporting-engine/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/reporting-engine)
 [![Translation Status](https://translation.odoo-community.org/widgets/reporting-engine-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/reporting-engine-14-0/?utm_source=widget)
 
@@ -31,6 +32,7 @@ addon | version | maintainers | summary
 [report_qweb_encrypt](report_qweb_encrypt/) | 14.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Allow to encrypt qweb pdfs
 [report_qweb_parameter](report_qweb_parameter/) | 14.0.1.0.0 |  | Add new parameters for qweb templates in order to reduce field length and check minimal length
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 14.0.1.0.0 |  | Add watermarks to your QWEB PDF reports
+[report_qweb_signer](report_qweb_signer/) | 14.0.1.0.0 |  | Sign Qweb PDFs usign a PKCS#12 certificate
 [report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 14.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
 [report_xlsx](report_xlsx/) | 14.0.1.0.6 |  | Base module to create xlsx report
 [report_xlsx_helper](report_xlsx_helper/) | 14.0.1.0.1 |  | Report xlsx helpers
