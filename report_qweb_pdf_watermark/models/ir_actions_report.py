@@ -84,8 +84,8 @@ class IrActionsReport(models.Model):
             watermark_page = pdf.addBlankPage(
                 page.mediaBox.getWidth(), page.mediaBox.getHeight()
             )
-            watermark_page.mergePage(pdf_watermark.getPage(0))
             watermark_page.mergePage(page)
+            watermark_page.mergePage(pdf_watermark.getPage(0))
 
         pdf_content = BytesIO()
         pdf.write(pdf_content)
