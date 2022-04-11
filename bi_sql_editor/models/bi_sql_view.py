@@ -9,7 +9,8 @@ from psycopg2 import ProgrammingError
 
 from odoo import SUPERUSER_ID, _, api, fields, models
 from odoo.exceptions import UserError
-from odoo.tools import sql, table_columns
+from odoo.tools import pycompat, sql, table_columns
+from odoo.tools.date_utils import add
 from odoo.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
@@ -396,7 +397,7 @@ class BiSQLView(models.Model):
             "numbercall": -1,
             "interval_number": 1,
             "interval_type": "days",
-            "nextcall": datetime(now.year, now.month, now.day + 1),
+            "nextcall": add(now, days=1),
             "active": True,
         }
 
