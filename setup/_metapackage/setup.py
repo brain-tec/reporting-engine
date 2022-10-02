@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo13-addon-base_comment_template',
         'odoo13-addon-bi_sql_editor',
+        'odoo13-addon-bi_sql_editor_server_actions',
         'odoo13-addon-kpi',
         'odoo13-addon-kpi_dashboard',
         'odoo13-addon-report_async',
@@ -25,6 +26,7 @@ setuptools.setup(
         'odoo13-addon-report_qweb_pdf_fixed_column',
         'odoo13-addon-report_qweb_pdf_watermark',
         'odoo13-addon-report_qweb_signer',
+        'odoo13-addon-report_substitute',
         'odoo13-addon-report_wkhtmltopdf_param',
         'odoo13-addon-report_xlsx',
         'odoo13-addon-report_xlsx_helper',
