@@ -3,7 +3,7 @@
 {
     "name": "Report Async",
     "summary": "Central place to run reports live or async",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "author": "Ecosoft, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "website": "https://github.com/OCA/reporting-engine",
@@ -12,11 +12,14 @@
     "data": [
         "security/ir.model.access.csv",
         "security/ir_rule.xml",
+        "views/assets.xml",
         "data/mail_template.xml",
         "data/queue_job_function_data.xml",
         "views/report_async.xml",
         "wizard/print_report_wizard.xml",
+        "views/ir_actions_report.xml",
     ],
+    "qweb": ["static/src/xml/report_async.xml"],
     "demo": ["demo/report_async_demo.xml"],
     "installable": True,
     "maintainers": ["kittiu"],
