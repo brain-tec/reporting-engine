@@ -1,6 +1,6 @@
 <odoo>
     <template id="minimal_layout" inherit_id="web.minimal_layout" priority="100">
-        <xpath expr="//script[@t-if='subst']" position="replace">
+        <script t-if="subst" position="replace">
             <script t-if="subst">
                 function subst() {
                     var vars = {};
@@ -30,18 +30,19 @@
                         footer.textContent = '';
                         footer.appendChild(companyFooter);
                     }
+
                     var operations = {
                         'not-first-page': function (elt) {
-                            elt.style.visibility = (vars.sitepage === vars.frompage) ? "hidden" : "visible";
+                            elt.style.visibility = (vars.sitepage == vars.frompage) ? "hidden" : "visible";
                         },
                         'not-last-page': function (elt) {
-                            elt.style.visibility = (vars.sitepage === vars.sitepages) ? "hidden" : "visible";
+                            elt.style.visibility = (vars.sitepage == vars.sitepages) ? "hidden" : "visible";
                         },
                         'first-page': function (elt) {
-                            elt.style.visibility = (vars.sitepage === vars.frompage) ? "visible" : "hidden";
+                            elt.style.visibility = (vars.sitepage == vars.frompage) ? "visible" : "hidden";
                         },
                         'last-page': function (elt) {
-                            elt.style.visibility = (vars.sitepage === vars.sitepages) ? "visible" : "hidden";
+                            elt.style.visibility = (vars.sitepage == vars.sitepages) ? "visible" : "hidden";
                         },
                     };
                     for (var klass in operations) {
@@ -51,6 +52,6 @@
                     }
                 }
             </script>
-        </xpath>
+        </script>
     </template>
 </odoo>
