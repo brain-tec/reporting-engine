@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-16 11:59+0000\n"
-"PO-Revision-Date: 2017-05-16 11:59+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Spanish (Argentina) (https://www.transifex.com/oca/"
-"teams/23907/es_AR/)\n"
+"PO-Revision-Date: 2023-04-07 20:22+0000\n"
+"Last-Translator: Ignacio Buioli <ibuioli@gmail.com>\n"
+"Language-Team: Spanish (Argentina) (https://www.transifex.com/oca/teams/"
+"23907/es_AR/)\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
@@ -155,7 +156,7 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__model_object_field
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__domain
@@ -224,20 +225,20 @@ msgstr "Última actualización el"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__model_id
 msgid "Model"
-msgstr ""
+msgstr "Modelo"
 
 #. module: base_comment_template
 #: model:ir.model,name:base_comment_template.model_ir_model
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__models
 msgid "Models"
-msgstr ""
+msgstr "Modelos"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__name
 #: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
 #: model_terms:ir.ui.view,arch_db:base_comment_template.view_partner_form
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__name
@@ -319,7 +320,7 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Secuencia"
 
 #. module: base_comment_template
 #: code:addons/base_comment_template/models/base_comment_template.py:0
