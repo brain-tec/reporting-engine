@@ -6,7 +6,7 @@
     "author": "Creu Blanca, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/reporting-engine",
     "category": "Reporting",
-    "version": "17.0.1.0.0",
+    "version": "17.0.1.0.1",
     "license": "AGPL-3",
     "depends": ["base", "web"],
     "demo": ["demo/report.xml"],
@@ -16,5 +16,6 @@
             "report_csv/static/src/js/report/qwebactionmanager.esm.js"
         ]
     },
+    "development_status": "Production/Stable",
     "installable": True,
 }
