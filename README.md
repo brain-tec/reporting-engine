@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [base_comment_template](base_comment_template/) | 18.0.1.0.1 |  | Add conditional mako template to any reporton models that inherits comment.template.
 [bi_sql_editor](bi_sql_editor/) | 18.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | BI Views builder, based on Materialized or Normal SQL Views
+[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 18.0.1.0.0 |  | Report Qweb Element Page Visibility
 [report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 18.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
 [report_xlsx](report_xlsx/) | 18.0.1.0.0 |  | Base module to create xlsx report
 [report_xlsx_helper](report_xlsx_helper/) | 18.0.1.0.0 |  | Report xlsx helpers
