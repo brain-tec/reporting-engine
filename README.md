@@ -29,6 +29,7 @@ addon | version | maintainers | summary
 [report_xlsx_helper](report_xlsx_helper/) | 18.0.1.0.0 |  | Report xlsx helpers
 [report_xml](report_xml/) | 18.0.1.0.0 |  | Allow to generate XML reports
 [sql_export](sql_export/) | 18.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Export data in csv file with SQL requests
+[sql_export_excel](sql_export_excel/) | 18.0.1.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Allow to export a sql query to an excel file.
 [sql_request_abstract](sql_request_abstract/) | 18.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Abstract Model to manage SQL Requests
 
 [//]: # (end addons)
