@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-reporting-engine"
-version = "18.0.20251009.0"
+version = "18.0.20251022.0"
 dependencies = [
     "odoo-addon-base_comment_template==18.0.*",
     "odoo-addon-bi_sql_editor==18.0.*",
@@ -22,6 +22,7 @@ dependencies = [
     "odoo-addon-report_xml==18.0.*",
     "odoo-addon-sql_export==18.0.*",
     "odoo-addon-sql_export_excel==18.0.*",
+    "odoo-addon-sql_export_mail==18.0.*",
     "odoo-addon-sql_request_abstract==18.0.*",
 ]
 classifiers=[
