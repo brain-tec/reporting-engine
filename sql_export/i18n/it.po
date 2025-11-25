@@ -168,8 +168,8 @@ msgid ""
 "                                Example : SELECT id FROM sale_order WHERE "
 "create_date &gt; %(Start Date)s"
 msgstr ""
-"Nel caso di utilizzo di roprietà nella query, utilizzare questa sintassi : %("
-"Property String)s. <br/>\n"
+"Nel caso di utilizzo di roprietà nella query, utilizzare questa sintassi : "
+"%(Property String)s. <br/>\n"
 "                                Esempio : SELECT id FROM sale_order WHERE "
 "create_date &gt; %(Start Date)s"
 
@@ -177,6 +177,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_is_follower
 msgid "Is Follower"
 msgstr "Segue"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_date
+msgid "Last Execution Date"
+msgstr ""
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_uid
@@ -189,6 +194,11 @@ msgstr "Ultimo aggiornamento di"
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__write_date
 msgid "Last Updated on"
 msgstr "Ultimo aggiornamento il"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_uid
+msgid "Last execution User"
+msgstr ""
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_has_error
