@@ -34,7 +34,7 @@ addon | version | maintainers | summary
 [report_qweb_field_option](report_qweb_field_option/) | 17.0.1.0.1 |  | Report Qweb Field Option
 [report_qweb_parameter](report_qweb_parameter/) | 17.0.1.0.2 |  | Add new parameters for qweb templates in order to reduce field length and check minimal length
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 17.0.1.0.2 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Add watermarks to your QWEB PDF reports
-[report_qweb_signer](report_qweb_signer/) | 17.0.1.0.2 |  | Sign Qweb PDFs usign a PKCS#12 certificate
+[report_qweb_signer](report_qweb_signer/) | 17.0.1.0.3 |  | Sign Qweb PDFs usign a PKCS#12 certificate
 [report_substitute](report_substitute/) | 17.0.1.1.0 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | This module allows to create substitution rules for report actions.
 [report_text_format_option](report_text_format_option/) | 17.0.1.0.0 |  | Report Text Format Option
 [report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 17.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
