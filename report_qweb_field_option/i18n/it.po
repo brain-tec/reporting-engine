@@ -19,7 +19,8 @@ msgstr ""
 #. module: report_qweb_field_option
 #: model:ir.model.fields,help:report_qweb_field_option.field_qweb_field_options__field_options
 msgid ""
-"A string representation of a dictionary to specify field formatting options. Examples:\n"
+"A string representation of a dictionary to specify field formatting options. "
+"Examples:\n"
 "{'widget': 'date'}\n"
 "{'widget': 'monetary'}\n"
 "{'widget': 'contact', 'fields': ['name', 'phone']}"
@@ -66,6 +67,11 @@ msgid "Display Name"
 msgstr "Nome visualizzato"
 
 #. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__domain
+msgid "Domain"
+msgstr ""
+
+#. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_id
 msgid "Field"
 msgstr "Campo"
@@ -93,18 +99,20 @@ msgstr "ID"
 #. module: report_qweb_field_option
 #. odoo-python
 #: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
-#, python-format
+msgid ""
+"Invalid domain format: %(domain)s.\n"
+"Error: %(error)s"
+msgstr ""
+
+#. module: report_qweb_field_option
+#. odoo-python
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
 msgid ""
 "Invalid string for the Options field: %(field_options)s.\n"
 "Error: %(error)s"
 msgstr ""
 "Stringa non valida per il campo opzioni: %(field_options)s.\n"
 "Errore: %(error)s"
-
-#. module: report_qweb_field_option
-#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options____last_update
-msgid "Last Modified on"
-msgstr "Ultima modifica il"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_uid
@@ -128,6 +136,17 @@ msgid "Model Name"
 msgstr "Nome modello"
 
 #. module: report_qweb_field_option
+#: model:ir.model.fields,help:report_qweb_field_option.field_qweb_field_options__domain
+msgid ""
+"Optional domain for additional filtering conditions.\n"
+"This is evaluated in addition to UoM/Currency conditions.\n"
+"Examples:\n"
+"[('secondary_uom_id', '=', 1)]\n"
+"[('secondary_uom_id.name', '=', 'Box')]\n"
+"[('state', 'in', ['sale', 'done'])]"
+msgstr ""
+
+#. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_options
 msgid "Options"
 msgstr "Opzioni"
@@ -135,7 +154,6 @@ msgstr "Opzioni"
 #. module: report_qweb_field_option
 #. odoo-python
 #: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
-#, python-format
 msgid "Options must be a dictionary, but got %s"
 msgstr "Le opzioni devono essere un dizionario, ma sono %s"
 
@@ -165,3 +183,6 @@ msgstr "UdM"
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_field_id
 msgid "UoM Field"
 msgstr "Campo UdM"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Ultima modifica il"

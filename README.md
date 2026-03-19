@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [report_qr](report_qr/) | 18.0.1.0.0 |  | Web QR Manager
 [report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 18.0.1.0.0 |  | Report Qweb Element Page Visibility
 [report_qweb_encrypt](report_qweb_encrypt/) | 18.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Allow to encrypt qweb pdfs
-[report_qweb_field_option](report_qweb_field_option/) | 18.0.1.0.1 |  | Report Qweb Field Option
+[report_qweb_field_option](report_qweb_field_option/) | 18.0.1.1.0 |  | Report Qweb Field Option
 [report_qweb_parameter](report_qweb_parameter/) | 18.0.1.0.0 |  | Add new parameters for qweb templates in order to reduce field length and check minimal length
 [report_qweb_pdf_cover](report_qweb_pdf_cover/) | 18.0.1.0.0 |  | Add front and back covers to your QWeb PDF reports
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 18.0.1.0.1 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Add watermarks to your QWEB PDF reports
