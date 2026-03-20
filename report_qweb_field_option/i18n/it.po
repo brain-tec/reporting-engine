@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-03-30 21:06+0000\n"
+"PO-Revision-Date: 2026-03-19 16:48+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,help:report_qweb_field_option.field_qweb_field_options__field_options
@@ -69,7 +69,7 @@ msgstr "Nome visualizzato"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__domain
 msgid "Domain"
-msgstr ""
+msgstr "Dominio"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_id
@@ -103,6 +103,8 @@ msgid ""
 "Invalid domain format: %(domain)s.\n"
 "Error: %(error)s"
 msgstr ""
+"Formato dominio errato: %(domain)s.\n"
+"Errore: %(error)s"
 
 #. module: report_qweb_field_option
 #. odoo-python
@@ -145,6 +147,13 @@ msgid ""
 "[('secondary_uom_id.name', '=', 'Box')]\n"
 "[('state', 'in', ['sale', 'done'])]"
 msgstr ""
+"Dominio opzionale per ulteriori condizioni di filtraggio.\n"
+"Questo viene valutato in aggiunta alle condizioni relative all'unità di "
+"misura/valuta.\n"
+"Esempi:\n"
+"[('secondary_uom_id', '=', 1)]\n"
+"[('secondary_uom_id.name', '=', 'Box')]\n"
+"[('state', 'in', ['sale', 'done'])]"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_options
