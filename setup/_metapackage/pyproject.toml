@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-reporting-engine"
-version = "18.0.20260415.0"
+version = "18.0.20260421.0"
 dependencies = [
     "odoo-addon-base_comment_template==18.0.*",
     "odoo-addon-bi_sql_editor==18.0.*",
@@ -14,6 +14,7 @@ dependencies = [
     "odoo-addon-report_partner_address==18.0.*",
     "odoo-addon-report_pdf_form==18.0.*",
     "odoo-addon-report_pdf_zip_download==18.0.*",
+    "odoo-addon-report_positioned_image==18.0.*",
     "odoo-addon-report_py3o==18.0.*",
     "odoo-addon-report_py3o_fusion_server==18.0.*",
     "odoo-addon-report_qr==18.0.*",

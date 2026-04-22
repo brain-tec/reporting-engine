@@ -33,7 +33,8 @@ addon | version | maintainers | summary
 [report_partner_address](report_partner_address/) | 18.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Translatable partner address details for reports and portal
 [report_pdf_form](report_pdf_form/) | 18.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Fill custom PDF form reports
 [report_pdf_zip_download](report_pdf_zip_download/) | 18.0.1.0.0 |  | Report PDF ZIP Download
-[report_py3o](report_py3o/) | 18.0.1.0.2 |  | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
+[report_positioned_image](report_positioned_image/) | 18.0.1.0.0 |  | Add positioned images to PDF reports.
+[report_py3o](report_py3o/) | 18.0.1.0.3 |  | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
 [report_py3o_fusion_server](report_py3o_fusion_server/) | 18.0.1.0.0 |  | Let the fusion server handle format conversion.
 [report_qr](report_qr/) | 18.0.1.0.0 |  | Web QR Manager
 [report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 18.0.1.0.0 |  | Report Qweb Element Page Visibility
